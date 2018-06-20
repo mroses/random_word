@@ -7,8 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Random Word (attempt {{number}})</p>
+    <p>Random Word (attempt #{{request.session.counter}})</p>
     <h2>{{word}}</h2>
-    <input type="submit" value="Generate"
+    <a href="/random_word">Generate</a>
 </body>
 </html>
